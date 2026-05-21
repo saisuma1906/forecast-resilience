@@ -64,26 +64,32 @@ Each agent runs **Groq API and Offline GBM simultaneously** via `ThreadPoolExecu
 
 ## Results Visualizations
 
-### MAPSE Before vs After Recovery + Grok–Offline Agreement
+### Phase A — Baseline: All 7 Models in the GREEN Zone
+![Model Accuracy](results/plot_A1_model_accuracy.png)
+
+### Phase B — Disruption Damage: Spikes Are Catastrophic
+![Disruption Damage](results/plot_B1_disruption_avg_mapse.png)
+
+### Phase C — Agent Improvement Summary (Spike / Drop / Drift)
+![Agent Improvement](results/plot_C7_summary_improvement.png)
+
+### Phase C — MAPSE Before vs After Recovery + Grok–Offline Agreement
 ![Recovery Agreement](results/plot_Cv3_recovery_agreement.png)
 
-### Agent Confidence Distribution (Autonomous vs Escalate Zones)
-![Confidence RAG](results/plot_Cv3_confidence_rag.png)
-
-### Statistical Validation — t-test CI + Cohen's d
+### Phase C — Statistical Validation: t-test CI + Cohen's d
 ![Statistical Tests](results/plot_Cv3_ttest_cohens.png)
 
-### Detection Heatmap + Action Distribution
-![Detection Actions](results/plot_Cv3_detection_actions.png)
-
-### Phase A — Baseline Model Accuracy (7 Models)
-![Model Accuracy](results/plot_A1_avg_mapse_per_model.png)
-
-### Phase B — Disruption Damage Heatmap
-![Resilience Heatmap](results/plot_B2_resilience_heatmap.png)
+### Phase C — Agent Confidence Distribution (Autonomous vs Escalate Zones)
+![Confidence RAG](results/plot_Cv3_confidence_rag.png)
 
 ### Phase D — 5 Root Causes of Spike Damage
 ![Spike Anatomy](results/plot_D2_spike_anatomy.png)
+
+### Phase D — Resilience Bathtub: Stable Baseline → Disruption → AI Recovery
+![Resilience Bathtub](results/plot_D7_resilience_bathtub.png)
+
+### Phase D — PDR: How Much Damage Remained After AI Acts?
+![PDR Comparison](results/plot_D8_PDR_comparison.png)
 
 ---
 
