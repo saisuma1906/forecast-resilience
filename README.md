@@ -64,6 +64,9 @@ Each agent runs **Groq API and Offline GBM simultaneously** via `ThreadPoolExecu
 
 ## Results Visualizations
 
+### AI Agent Action Architecture
+![Architecture](results/architecture.png)
+
 ### Phase A — Baseline: All 7 Models in the GREEN Zone
 ![Model Accuracy](results/plot_A1_model_accuracy.png)
 
